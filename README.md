@@ -34,7 +34,7 @@ Each party member includes:
 - Maximum health
 
 Example response:
-
+```
 {
     "party": [
         {
@@ -47,14 +47,14 @@ Example response:
         }
     ]
 }
-
+```
 If the party is empty:
-
+```
 {
     "message": "The party is empty.",
     "party": []
 }
-
+```
 
 ### GET /party/:id
 
@@ -65,7 +65,7 @@ Example request:
 GET /party/1
 
 Example response:
-
+```
 {
     "member": {
         "id": 1,
@@ -76,13 +76,13 @@ Example response:
         "maxHealth": 52
     }
 }
-
+```
 If the party member does not exist:
-
+```
 {
     "error": "Party member not found."
 }
-
+```
 
 ### GET /npcs
 
@@ -96,7 +96,7 @@ Each NPC includes:
 - Description
 
 Example response:
-
+```
 {
     "npcs": [
         {
@@ -107,14 +107,14 @@ Example response:
         }
     ]
 }
-
+```
 If there are no NPCs:
-
+```
 {
     "message": "No NPCs are available.",
     "npcs": []
 }
-
+```
 
 ### GET /npcs/:id
 
@@ -125,7 +125,7 @@ Example request:
 GET /npcs/1
 
 Example response:
-
+```
 {
     "npc": {
         "id": 1,
@@ -134,13 +134,13 @@ Example response:
         "description": "An ancient, tree-like Ent who guards Fangorn Forest."
     }
 }
-
+```
 If the NPC does not exist:
-
+```
 {
     "error": "NPC not found."
 }
-
+```
 
 ## Data Storage
 
