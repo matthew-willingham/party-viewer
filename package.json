@@ -1,0 +1,26 @@
+{
+  "name": "party-viewer",
+  "version": "1.0.0",
+  "description": "The Party Viewer shows current party members or campaign NPCs",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node server.js"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthew-willingham/party-viewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/matthew-willingham/party-viewer/issues"
+  },
+  "homepage": "https://github.com/matthew-willingham/party-viewer#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

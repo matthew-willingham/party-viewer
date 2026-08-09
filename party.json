@@ -1,0 +1,28 @@
+{
+    "party": [
+        {
+            "id": 1,
+            "name": "Aragorn",
+            "class": "Fighter",
+            "level": 5,
+            "currentHealth": 48,
+            "maxHealth": 52
+        },
+        {
+            "id": 2,
+            "name": "Gandalf",
+            "class": "Wizard",
+            "level": 5,
+            "currentHealth": 24,
+            "maxHealth": 30
+        },
+        {
+            "id": 3,
+            "name": "Frodo Baggins",
+            "class": "Rogue",
+            "level": 5,
+            "currentHealth": 31,
+            "maxHealth": 38
+        }
+    ]
+}

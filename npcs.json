@@ -1,0 +1,22 @@
+{
+    "npcs": [
+        {
+            "id": 1,
+            "name": "Treebeard",
+            "race": "Ent",
+            "description": "An ancient, tree-like Ent who guards Fangorn Forest."
+        },
+        {
+            "id": 2,
+            "name": "Saruman",
+            "race": "Human",
+            "description": "A powerful wizard who falls into darkness, betraying his allies to build an industrial army for Sauron."
+        },
+        {
+            "id": 3,
+            "name": "Gimli",
+            "race": "Dwarf",
+            "description": "A fierce and loyal Dwarf warrior whose deep pride transforms into a historic, lifelong friendship with the Elf Legolas"
+        }
+    ]
+}
